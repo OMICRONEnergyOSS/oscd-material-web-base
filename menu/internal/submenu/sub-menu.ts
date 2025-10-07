@@ -254,7 +254,7 @@ export class SubMenu extends LitElement {
     } else {
       this.previousOpenTimeout = setTimeout(() => {
         this.show();
-      }, this.hoverOpenDelay);
+      }, this.hoverOpenDelay) as unknown as number;
     }
   };
 
@@ -278,7 +278,7 @@ export class SubMenu extends LitElement {
     } else {
       this.previousCloseTimeout = setTimeout(() => {
         this.close();
-      }, this.hoverCloseDelay);
+      }, this.hoverCloseDelay) as unknown as number;
     }
   };
 

@@ -228,7 +228,7 @@ export class TypeaheadController {
     this.cancelTypeaheadTimeout = setTimeout(
       this.endTypeahead,
       this.getProperties().typeaheadBufferTime,
-    );
+    ) as unknown as number;
 
     this.typaheadBuffer += event.key.toLowerCase();
 
