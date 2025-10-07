@@ -26,3 +26,7 @@ catalog/site/about/images
 catalog/stories/*/
 !catalog/stories/components/
 !catalog/src/types/**/*.d.ts
+
+# IDEs and editors
+.idea
+.vscode

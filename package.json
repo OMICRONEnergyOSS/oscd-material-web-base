@@ -1,10 +1,10 @@
 {
-  "name": "@material/web",
+  "name": "@omicronenergy/oscd-material-web-base",
   "version": "2.4.0",
   "publishConfig": {
     "access": "public"
   },
-  "description": "Material web components",
+  "description": "Fork of Material web components with scoped components",
   "keywords": [
     "material",
     "material design",
@@ -15,13 +15,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/material-components/material-web.git"
+    "url": "git+https://github.com/OMICRONEnergyOSS/oscd-material-web-base.git"
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/material-components/material-web/issues"
+    "url": "https://github.com/OMICRONEnergyOSS/oscd-material-web-base/issues"
   },
-  "homepage": "https://github.com/material-components/material-web#readme",
+  "homepage": "https://github.com/OMICRONEnergyOSS/oscd-material-web-base#readme",
   "scripts": {
     "build": "wireit",
     "build:ts": "wireit",
@@ -76,6 +76,11 @@
     "typescript": "5.8.2",
     "web-test-runner-jasmine": "^0.0.6",
     "wireit": "^0.14.12"
+  },
+  "overrides": {
+    "@web/test-runner-playwright": {
+      "playwright": "1.54.1"
+    }
   },
   "wireit": {
     "build": {
