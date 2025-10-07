@@ -4,7 +4,7 @@
   "description": "The Material Web Catalog.",
   "main": "_prod/index.html",
   "engines": {
-    "node": "20.x.x"
+    "node": "24.x.x"
   },
   "scripts": {
     "start": "npm run serve",
