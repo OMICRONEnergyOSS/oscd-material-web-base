@@ -4,10 +4,6 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import '../../elevation/elevation.js';
-import '../../focus/md-focus-ring.js';
-import '../../ripple/ripple.js';
-
 import {html, isServer, LitElement, nothing} from 'lit';
 import {
   property,

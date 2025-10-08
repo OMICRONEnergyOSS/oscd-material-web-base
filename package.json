@@ -1,6 +1,6 @@
 {
   "name": "@omicronenergy/oscd-material-web-base",
-  "version": "2.5.0",
+  "version": "2.3.0",
   "publishConfig": {
     "access": "public"
   },
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/OMICRONEnergyOSS/oscd-material-web-base#readme",
   "scripts": {
+    "lint": "echo 'No linting configured'",
     "build": "wireit",
     "build:ts": "wireit",
     "build:css-to-ts": "wireit",
@@ -62,7 +63,7 @@
   ],
   "dependencies": {
     "@open-wc/scoped-elements": "^3.0.6",
-    "lit": "^3.3.1",
+    "lit": "^3.3.0",
     "tslib": "^2.4.0"
   },
   "devDependencies": {

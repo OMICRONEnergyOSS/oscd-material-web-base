@@ -4,8 +4,6 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import '../../menu/menu.js';
-
 import {html, isServer, LitElement, nothing, PropertyValues} from 'lit';
 import {property, query, queryAssignedElements, state} from 'lit/decorators.js';
 import {ClassInfo, classMap} from 'lit/directives/class-map.js';

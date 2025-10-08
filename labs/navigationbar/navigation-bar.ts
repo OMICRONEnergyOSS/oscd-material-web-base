@@ -3,6 +3,8 @@
  * Copyright 2021 Google LLC
  * SPDX-License-Identifier: Apache-2.0
  */
+/* components imported at this level, so the internal component can remain side-effect free */
+import '../../elevation/elevation.js';
 
 import {CSSResultOrNative} from 'lit';
 import {customElement} from 'lit/decorators.js';

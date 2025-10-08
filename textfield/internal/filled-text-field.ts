@@ -4,8 +4,6 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import '../../field/filled-field.js';
-
 import {literal} from 'lit/static-html.js';
 
 import {TextField} from './text-field.js';

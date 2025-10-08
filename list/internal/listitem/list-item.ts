@@ -3,11 +3,6 @@
  * Copyright 2022 Google LLC
  * SPDX-License-Identifier: Apache-2.0
  */
-
-import '../../../focus/md-focus-ring.js';
-import '../../../labs/item/item.js';
-import '../../../ripple/ripple.js';
-
 import {html, LitElement, nothing, PropertyValues, TemplateResult} from 'lit';
 import {property, query} from 'lit/decorators.js';
 import {ClassInfo, classMap} from 'lit/directives/class-map.js';

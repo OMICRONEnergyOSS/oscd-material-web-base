@@ -4,9 +4,6 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import '../../focus/md-focus-ring.js';
-import '../../ripple/ripple.js';
-
 import {html, isServer, LitElement, nothing, TemplateResult} from 'lit';
 import {property, query} from 'lit/decorators.js';
 import {ClassInfo, classMap} from 'lit/directives/class-map.js';

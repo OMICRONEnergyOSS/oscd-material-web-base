@@ -3,6 +3,8 @@
  * Copyright 2023 Google LLC
  * SPDX-License-Identifier: Apache-2.0
  */
+import '../menu/menu.js';
+import '../field/filled-field.js';
 
 import {CSSResultOrNative} from 'lit';
 import {customElement} from 'lit/decorators.js';

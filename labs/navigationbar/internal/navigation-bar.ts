@@ -4,8 +4,6 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import '../../../elevation/elevation.js';
-
 import {html, LitElement, nothing, PropertyValues} from 'lit';
 import {property, queryAssignedElements} from 'lit/decorators.js';
 

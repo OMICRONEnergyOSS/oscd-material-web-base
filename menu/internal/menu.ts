@@ -4,9 +4,6 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import '../../elevation/elevation.js';
-import '../../focus/md-focus-ring.js';
-
 import {LitElement, PropertyValues, html, isServer, nothing} from 'lit';
 import {property, query, queryAssignedElements, state} from 'lit/decorators.js';
 import {ClassInfo, classMap} from 'lit/directives/class-map.js';
