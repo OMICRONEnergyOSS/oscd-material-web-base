@@ -3,11 +3,7 @@
  * Copyright 2022 Google LLC
  * SPDX-License-Identifier: Apache-2.0
  */
-import '../elevation/elevation.js';
-import '../focus/md-focus-ring.js';
-
 import {CSSResultOrNative} from 'lit';
-import {customElement} from 'lit/decorators.js';
 
 import {Menu} from './internal/menu.js';
 import {styles} from './internal/menu-styles.js';
@@ -21,12 +17,6 @@ export {
   type Menu,
 } from './internal/controllers/shared.js';
 export {Corner} from './internal/menu.js';
-
-declare global {
-  interface HTMLElementTagNameMap {
-    'md-menu': MdMenu;
-  }
-}
 
 /**
  * @summary Menus display a list of choices on a temporary surface.
@@ -77,7 +67,6 @@ declare global {
  * @final
  * @suppress {visibility}
  */
-@customElement('md-menu')
 export class MdMenu extends Menu {
   static override styles: CSSResultOrNative[] = [styles];
 }

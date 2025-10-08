@@ -1,28 +1,20 @@
 /**
  * @license
- * Copyright 2023 Google LLC
+ * Copyright 2021 Google LLC
  * SPDX-License-Identifier: Apache-2.0
  */
-import '../../elevation/elevation.js';
 
 import {CSSResultOrNative} from 'lit';
-import {customElement} from 'lit/decorators.js';
 
-import {Card} from './internal/card.js';
+import {OutlinedField} from './internal/outlined-field.js';
 import {styles as outlinedStyles} from './internal/outlined-styles.js';
 import {styles as sharedStyles} from './internal/shared-styles.js';
 
-declare global {
-  interface HTMLElementTagNameMap {
-    'md-outlined-card': MdOutlinedCard;
-  }
-}
-
 /**
+ * TODO(b/228525797): add docs
  * @final
  * @suppress {visibility}
  */
-@customElement('md-outlined-card')
-export class MdOutlinedCard extends Card {
+export class MdOutlinedField extends OutlinedField {
   static override styles: CSSResultOrNative[] = [sharedStyles, outlinedStyles];
 }

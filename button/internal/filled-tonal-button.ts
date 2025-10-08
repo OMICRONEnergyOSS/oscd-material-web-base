@@ -4,8 +4,6 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import '../../elevation/elevation.js';
-
 import {html} from 'lit';
 
 import {Button} from './button.js';
