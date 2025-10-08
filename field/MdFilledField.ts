@@ -1,28 +1,20 @@
 /**
  * @license
- * Copyright 2023 Google LLC
+ * Copyright 2021 Google LLC
  * SPDX-License-Identifier: Apache-2.0
  */
-import '../../elevation/elevation.js';
 
 import {CSSResultOrNative} from 'lit';
-import {customElement} from 'lit/decorators.js';
 
-import {Card} from './internal/card.js';
+import {FilledField} from './internal/filled-field.js';
 import {styles as filledStyles} from './internal/filled-styles.js';
 import {styles as sharedStyles} from './internal/shared-styles.js';
 
-declare global {
-  interface HTMLElementTagNameMap {
-    'md-filled-card': MdFilledCard;
-  }
-}
-
 /**
+ * TODO(b/228525797): add docs
  * @final
  * @suppress {visibility}
  */
-@customElement('md-filled-card')
-export class MdFilledCard extends Card {
+export class MdFilledField extends FilledField {
   static override styles: CSSResultOrNative[] = [sharedStyles, filledStyles];
 }

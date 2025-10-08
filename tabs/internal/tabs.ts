@@ -4,8 +4,6 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import '../../divider/divider.js';
-
 import {html, isServer, LitElement} from 'lit';
 import {property, query, queryAssignedElements} from 'lit/decorators.js';
 

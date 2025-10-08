@@ -4,6 +4,10 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import '../focus/md-focus-ring.js';
+import '../ripple/ripple.js';
+import '../elevation/elevation.js';
+
 import {CSSResultOrNative} from 'lit';
 import {customElement} from 'lit/decorators.js';
 
