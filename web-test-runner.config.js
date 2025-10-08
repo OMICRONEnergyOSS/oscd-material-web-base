@@ -6,9 +6,15 @@
 
 import {playwrightLauncher} from '@web/test-runner-playwright';
 import {jasmineTestRunnerConfig} from 'web-test-runner-jasmine';
+import { polyfill } from '@web/dev-server-polyfill';
 
 export default {
   ...jasmineTestRunnerConfig(),
+  plugins: [
+    polyfill({
+      scopedCustomElementRegistry: true,
+    }),
+  ],
   nodeResolve: true,
   files: ['**/*test.js', '!node_modules/', '!.wireit/'],
   browsers:
