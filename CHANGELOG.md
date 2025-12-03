@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.1](https://github.com/OMICRONEnergyOSS/oscd-material-web-base/compare/v2.4.0...v2.4.1) (2025-12-03)
+
+
+### Miscellaneous Chores
+
+* added custom-element.json to package files ([bc8caa0](https://github.com/OMICRONEnergyOSS/oscd-material-web-base/commit/bc8caa097c58bd7720231323cdbc1ca3229f1cc4))
+
 ## [2.4.0](https://github.com/OMICRONEnergyOSS/oscd-material-web-base/compare/v2.3.0...v2.4.0) (2025-10-08)
 
 
