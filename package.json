@@ -24,6 +24,7 @@
   "homepage": "https://github.com/OMICRONEnergyOSS/oscd-material-web-base#readme",
   "scripts": {
     "lint": "echo 'No linting configured'",
+    "bundle": "echo 'No bundle configured(or required)'",
     "build": "wireit",
     "build:ts": "wireit",
     "build:css-to-ts": "wireit",
@@ -42,6 +43,7 @@
     "**/*.scss",
     "**/*.css",
     "**/*.css.map",
+    "custom-elements.json",
     "!web-test-runner.config.js",
     "!commitlint.config.js",
     "!**/test/**",
