@@ -55,6 +55,7 @@ const baseClass = mixinDelegatesAria(
  * @cssprop --icon-color
  * @cssprop --icon-size
  * @cssprop --label-text
+ * @cssprop --label-text-axes
  * @cssprop --label-text-tracking
  * @cssprop --label-text-color
  * @cssprop --leading-space

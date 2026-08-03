@@ -15,12 +15,13 @@
   --icon-color: currentColor;
   --icon-size: 20px;
   --label-text: var(--md-sys-typescale-label-lg);
+  --label-text-axes: var(--md-sys-typescale-label-lg-axes);
   --label-text-tracking: var(--md-sys-typescale-label-lg-tracking);
   --label-text-color: currentColor;
   --leading-space: 0;
   --state-layer-color: transparent;
   --trailing-space: 0;
-  // LINT.ThenChange(md-button.ts) keep in sync with `@cssprop` jsdoc tags
+  // LINT.ThenChange(button-element.ts) keep in sync with `@cssprop` jsdoc tags
 }
 
 @mixin selected {
@@ -115,6 +116,7 @@
   --trailing-space: 24px;
   --icon-size: 24px;
   --label-text: var(--md-sys-typescale-title-md);
+  --label-text-axes: var(--md-sys-typescale-title-md-axes);
   --label-text-tracking: var(--md-sys-typescale-title-md-tracking);
 }
 
@@ -129,6 +131,7 @@
   --leading-space: 48px;
   --trailing-space: 48px;
   --label-text: var(--md-sys-typescale-headline-sm);
+  --label-text-axes: var(--md-sys-typescale-headline-sm-axes);
   --label-text-tracking: var(--md-sys-typescale-headline-sm-tracking);
 }
 
@@ -143,6 +146,7 @@
   --leading-space: 64px;
   --trailing-space: 64px;
   --label-text: var(--md-sys-typescale-headline-lg);
+  --label-text-axes: var(--md-sys-typescale-headline-lg-axes);
   --label-text-tracking: var(--md-sys-typescale-headline-lg-tracking);
 }
 

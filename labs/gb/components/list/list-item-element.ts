@@ -52,6 +52,7 @@ const baseClass = mixinDelegatesAria(mixinElementInternals(LitElement));
  * @cssprop --avatar-shape
  * @cssprop --avatar-color
  * @cssprop --avatar-label
+ * @cssprop --avatar-label-axes
  * @cssprop --avatar-label-tracking
  * @cssprop --avatar-label-color
  * @cssprop --leading-icon-color
@@ -59,12 +60,15 @@ const baseClass = mixinDelegatesAria(mixinElementInternals(LitElement));
  * @cssprop --trailing-icon-color
  * @cssprop --trailing-icon-size
  * @cssprop --overline
+ * @cssprop --overline-axes
  * @cssprop --overline-tracking
  * @cssprop --overline-color
  * @cssprop --supporting-text
+ * @cssprop --supporting-text-axes
  * @cssprop --supporting-text-tracking
  * @cssprop --supporting-text-color
  * @cssprop --trailing-supporting-text
+ * @cssprop --trailing-supporting-text-axes
  * @cssprop --trailing-supporting-text-tracking
  * @cssprop --trailing-supporting-text-color
  */

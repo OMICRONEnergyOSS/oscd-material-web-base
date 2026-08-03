@@ -12,7 +12,7 @@
   --group-padding: 2px;
   --group-shape: var(--md-sys-shape-corner-sm);
   --section-label-text-color: var(--md-sys-color-on-surface-variant);
-  // LINT.ThenChange(md-menu.ts) keep in sync with `@cssprop` jsdoc tags
+  // LINT.ThenChange(menu-element.ts) keep in sync with `@cssprop` jsdoc tags
 }
 
 @mixin inactive {
@@ -36,6 +36,7 @@
   --inner-corner-corner-size: none;
   --label-text-color: var(--md-sys-color-on-surface);
   --label-text: var(--md-sys-typescale-label-lg);
+  --label-text-axes: var(--md-sys-typescale-label-lg-axes);
   --label-text-tracking: var(--md-sys-typescale-label-lg-tracking);
   --leading-icon-color: var(--md-sys-color-on-surface-variant);
   --leading-icon-size: 20px;
@@ -43,15 +44,19 @@
   --shape: var(--md-sys-shape-corner-xs);
   --supporting-text-color: var(--md-sys-color-on-surface-variant);
   --supporting-text: var(--md-sys-typescale-body-sm);
+  --supporting-text-axes: var(--md-sys-typescale-body-sm-axes);
   --supporting-text-tracking: var(--md-sys-typescale-body-sm-tracking);
   --top-space: 8px;
   --trailing-icon-color: var(--md-sys-color-on-surface-variant);
   --trailing-icon-size: 20px;
   --trailing-space: 16px;
-  --trailing-supporting-text-color: var(--md-sys-color-on-surface-variant);
   --trailing-supporting-text: var(--md-sys-typescale-label-lg);
-  --trailing-supporting-text-tracking: var(--md-sys-typescale-label-lg-tracking);
-  // LINT.ThenChange(md-menu-item.ts) keep in sync with `@cssprop` jsdoc tags
+  --trailing-supporting-text-axes: var(--md-sys-typescale-label-lg-axes);
+  --trailing-supporting-text-color: var(--md-sys-color-on-surface-variant);
+  --trailing-supporting-text-tracking: var(
+    --md-sys-typescale-label-lg-tracking
+  );
+  // LINT.ThenChange(menu-item-element.ts) keep in sync with `@cssprop` jsdoc tags
 }
 
 @mixin item-first-child {
@@ -111,22 +116,46 @@
   --leading-icon-color: hsl(from var(--md-sys-color-on-surface) h s l / 38%);
   --supporting-text-color: hsl(from var(--md-sys-color-on-surface) h s l / 38%);
   --trailing-icon-color: hsl(from var(--md-sys-color-on-surface) h s l / 38%);
-  --trailing-supporting-text-color: hsl(from var(--md-sys-color-on-surface) h s l / 38%);
+  --trailing-supporting-text-color: hsl(
+    from var(--md-sys-color-on-surface) h s l / 38%
+  );
 }
 
 @mixin item-disabled-vibrant {
-  --label-text-color: hsl(from var(--md-sys-color-on-tertiary-container) h s l / 38%);
-  --leading-icon-color: hsl(from var(--md-sys-color-on-tertiary-container) h s l / 38%);
-  --supporting-text-color: hsl(from var(--md-sys-color-on-tertiary-container) h s l / 38%);
-  --trailing-icon-color: hsl(from var(--md-sys-color-on-tertiary-container) h s l / 38%);
-  --trailing-supporting-text-color: hsl(from var(--md-sys-color-on-tertiary-container) h s l / 38%);
+  --label-text-color: hsl(
+    from var(--md-sys-color-on-tertiary-container) h s l / 38%
+  );
+  --leading-icon-color: hsl(
+    from var(--md-sys-color-on-tertiary-container) h s l / 38%
+  );
+  --supporting-text-color: hsl(
+    from var(--md-sys-color-on-tertiary-container) h s l / 38%
+  );
+  --trailing-icon-color: hsl(
+    from var(--md-sys-color-on-tertiary-container) h s l / 38%
+  );
+  --trailing-supporting-text-color: hsl(
+    from var(--md-sys-color-on-tertiary-container) h s l / 38%
+  );
 }
 
 @mixin item-disabled-selected {
-  --container-color: hsl(from var(--md-sys-color-tertiary-container) h s l / 38%);
-  --label-text-color: hsl(from var(--md-sys-color-on-tertiary-container) h s l / 38%);
-  --leading-icon-color: hsl(from var(--md-sys-color-on-tertiary-container) h s l / 38%);
-  --supporting-text-color: hsl(from var(--md-sys-color-on-tertiary-container) h s l / 38%);
-  --trailing-icon-color: hsl(from var(--md-sys-color-on-tertiary-container) h s l / 38%);
-  --trailing-supporting-text-color: hsl(from var(--md-sys-color-on-tertiary-container) h s l / 38%);
+  --container-color: hsl(
+    from var(--md-sys-color-tertiary-container) h s l / 38%
+  );
+  --label-text-color: hsl(
+    from var(--md-sys-color-on-tertiary-container) h s l / 38%
+  );
+  --leading-icon-color: hsl(
+    from var(--md-sys-color-on-tertiary-container) h s l / 38%
+  );
+  --supporting-text-color: hsl(
+    from var(--md-sys-color-on-tertiary-container) h s l / 38%
+  );
+  --trailing-icon-color: hsl(
+    from var(--md-sys-color-on-tertiary-container) h s l / 38%
+  );
+  --trailing-supporting-text-color: hsl(
+    from var(--md-sys-color-on-tertiary-container) h s l / 38%
+  );
 }

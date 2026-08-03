@@ -107,6 +107,7 @@
       color: var(--label-text-color);
       font: var(--label-text);
       letter-spacing: var(--label-text-tracking);
+      font-variation-settings: var(--label-text-axes);
       appearance: none;
       border: none;
       text-align: unset;
@@ -155,18 +156,21 @@
     .list-item-overline {
       font: var(--overline);
       letter-spacing: var(--overline-tracking);
+      font-variation-settings: var(--overline-axes);
       color: var(--overline-color);
     }
 
     .list-item-supporting-text {
       font: var(--supporting-text);
       letter-spacing: var(--supporting-text-tracking);
+      font-variation-settings: var(--supporting-text-axes);
       color: var(--supporting-text-color);
     }
 
     .list-item-trailing-text {
       font: var(--trailing-supporting-text);
       letter-spacing: var(--trailing-supporting-text-tracking);
+      font-variation-settings: var(--trailing-supporting-text-axes);
       color: var(--trailing-supporting-text-color);
     }
 
@@ -179,6 +183,7 @@
       width: var(--avatar-size);
       font: var(--avatar-label);
       letter-spacing: var(--avatar-label-tracking);
+      font-variation-settings: var(--avatar-label-axes);
       color: var(--avatar-label-color);
     }
 

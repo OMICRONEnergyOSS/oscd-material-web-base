@@ -54,6 +54,7 @@ const baseClass = mixinElementInternals(mixinFocusable(LitElement));
  * @cssprop --inner-corner-corner-size
  * @cssprop --label-text-color
  * @cssprop --label-text
+ * @cssprop --label-text-axes
  * @cssprop --label-text-tracking
  * @cssprop --leading-icon-color
  * @cssprop --leading-icon-size
@@ -61,13 +62,15 @@ const baseClass = mixinElementInternals(mixinFocusable(LitElement));
  * @cssprop --shape
  * @cssprop --supporting-text-color
  * @cssprop --supporting-text
+ * @cssprop --supporting-text-axes
  * @cssprop --supporting-text-tracking
  * @cssprop --top-space
  * @cssprop --trailing-icon-color
  * @cssprop --trailing-icon-size
  * @cssprop --trailing-space
- * @cssprop --trailing-supporting-text-color
  * @cssprop --trailing-supporting-text
+ * @cssprop --trailing-supporting-text-axes
+ * @cssprop --trailing-supporting-text-color
  * @cssprop --trailing-supporting-text-tracking
  */
 export class MenuItemElement extends baseClass {

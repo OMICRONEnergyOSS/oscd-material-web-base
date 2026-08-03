@@ -59,6 +59,8 @@
       background-color: var(--container-color);
       color: var(--label-text-color);
       font: var(--label-text);
+      letter-spacing: var(--label-text-tracking);
+      font-variation-settings: var(--label-text-axes);
       box-sizing: border-box;
       user-select: none;
       white-space: nowrap;

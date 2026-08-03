@@ -13,11 +13,12 @@
   --icon-label-space: 12px;
   --icon-size: 24px;
   --label-text: var(--md-sys-typescale-label-lg);
+  --label-text-axes: var(--md-sys-typescale-label-lg-axes);
   --label-text-color: currentColor;
   --label-text-tracking: var(--md-sys-typescale-label-lg-tracking);
   --leading-space: 16px;
   --trailing-space: 16px;
-  // LINT.ThenChange(md-fab.ts) keep in sync with `@cssprop` jsdoc tags
+  // LINT.ThenChange(fab-element.ts) keep in sync with `@cssprop` jsdoc tags
 }
 
 @mixin hovered {
@@ -69,6 +70,7 @@
   --container-shape: var(--md-sys-shape-corner-lg-increased);
   --icon-size: 28px;
   --label-text: var(--md-sys-typescale-title-lg);
+  --label-text-axes: var(--md-sys-typescale-title-lg-axes);
   --label-text-tracking: var(--md-sys-typescale-title-lg-tracking);
   --leading-space: 26px;
   --trailing-space: 26px;
@@ -80,6 +82,7 @@
   --icon-label-space: 16px;
   --icon-size: 36px;
   --label-text: var(--md-sys-typescale-headline-sm);
+  --label-text-axes: var(--md-sys-typescale-headline-sm-axes);
   --label-text-tracking: var(--md-sys-typescale-headline-sm-tracking);
   --leading-space: 28px;
   --trailing-space: 28px;

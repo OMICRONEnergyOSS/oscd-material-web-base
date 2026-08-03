@@ -112,6 +112,7 @@
       color: var(--label-text-color);
       font: var(--label-text);
       letter-spacing: var(--label-text-tracking);
+      font-variation-settings: var(--label-text-axes);
     }
 
     &::before {
@@ -143,12 +144,14 @@
       color: var(--supporting-text-color);
       font: var(--supporting-text);
       letter-spacing: var(--supporting-text-tracking);
+      font-variation-settings: var(--supporting-text-axes);
     }
 
     .menu-item-trailing-text {
       color: var(--trailing-supporting-text-color);
       font: var(--trailing-supporting-text);
       letter-spacing: var(--trailing-supporting-text-tracking);
+      font-variation-settings: var(--trailing-supporting-text-axes);
     }
 
     .menu-item-leading,

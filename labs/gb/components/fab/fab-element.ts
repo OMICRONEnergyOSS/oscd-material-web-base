@@ -29,6 +29,7 @@ import {fab, type FabColor, type FabSize} from './fab.js';
  * @cssprop --icon-label-space
  * @cssprop --icon-size
  * @cssprop --label-text
+ * @cssprop --label-text-axes
  * @cssprop --label-text-color
  * @cssprop --label-text-tracking
  * @cssprop --leading-space
