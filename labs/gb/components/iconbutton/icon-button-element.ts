@@ -52,6 +52,7 @@ export class IconButtonElement extends baseClass {
     delegatesFocus: true,
   };
 
+  /** @nocollapse */
   static override styles: CSSResultOrNative[] = [
     focusRingStyles,
     rippleStyles,

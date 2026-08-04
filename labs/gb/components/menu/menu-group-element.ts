@@ -28,6 +28,7 @@ const baseClass = mixinElementInternals(LitElement);
  * @slot - Used to display the menu group's items.
  */
 export class MenuGroupElement extends baseClass {
+  /** @nocollapse */
   static override styles: CSSResultOrNative[] = [
     css`
       :host {

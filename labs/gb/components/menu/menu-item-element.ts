@@ -74,6 +74,7 @@ const baseClass = mixinElementInternals(mixinFocusable(LitElement));
  * @cssprop --trailing-supporting-text-tracking
  */
 export class MenuItemElement extends baseClass {
+  /** @nocollapse */
   static override styles: CSSResultOrNative[] = [
     focusRingStyles,
     rippleStyles,

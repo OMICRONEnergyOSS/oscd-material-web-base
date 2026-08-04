@@ -40,6 +40,7 @@ import {
  * @cssprop --trailing-space
  */
 export class SplitButtonElement extends LitElement {
+  /** @nocollapse */
   static override styles: CSSResultOrNative[] = [
     focusRingStyles,
     rippleStyles,

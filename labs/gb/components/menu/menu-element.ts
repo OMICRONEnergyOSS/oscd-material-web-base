@@ -35,6 +35,7 @@ const baseClass = mixinElementInternals(mixinFocusable(LitElement));
  * @cssprop --section-label-text-color
  */
 export class MenuElement extends baseClass {
+  /** @nocollapse */
   static override styles: CSSResultOrNative[] = [menuStyles, css``];
 
   @property() color: MenuColor = MENU_COLORS.standard;

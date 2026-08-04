@@ -20,6 +20,7 @@ import {divider} from './divider.js';
  * @cssprop --thickness
  */
 export class DividerElement extends LitElement {
+  /** @nocollapse */
   static override styles: CSSResultOrNative[] = [
     dividerStyles,
     css`

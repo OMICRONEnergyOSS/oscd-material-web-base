@@ -51,6 +51,7 @@ export class CardElement extends baseClass {
     delegatesFocus: true,
   };
 
+  /** @nocollapse */
   static override styles: CSSResultOrNative[] = [
     focusRingStyles,
     rippleStyles,

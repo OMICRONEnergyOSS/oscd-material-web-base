@@ -79,6 +79,7 @@ export class ListItemElement extends baseClass {
     delegatesFocus: true,
   };
 
+  /** @nocollapse */
   static override styles: CSSResultOrNative[] = [
     focusRingStyles,
     rippleStyles,

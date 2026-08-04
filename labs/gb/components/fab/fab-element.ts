@@ -36,6 +36,7 @@ import {fab, type FabColor, type FabSize} from './fab.js';
  * @cssprop --trailing-space
  */
 export class FabElement extends LitElement {
+  /** @nocollapse */
   static override styles: CSSResultOrNative[] = [
     focusRingStyles,
     rippleStyles,

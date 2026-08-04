@@ -55,6 +55,7 @@ const radioBaseClass = mixinConstraintValidation(
  * @cssprop --state-layer-size
  */
 export class RadioElement extends radioBaseClass {
+  /** @nocollapse */
   static override styles: CSSResultOrNative[] = [
     focusRingStyles,
     rippleStyles,

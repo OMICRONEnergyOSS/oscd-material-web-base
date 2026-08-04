@@ -45,6 +45,7 @@ import {styles as appBarStyles} from './app-bar.cssresult.js';
  * @cssprop --trailing-space
  */
 export class AppBarElement extends LitElement {
+  /** @nocollapse */
   static override styles: CSSResultOrNative[] = [
     appBarStyles,
     css`

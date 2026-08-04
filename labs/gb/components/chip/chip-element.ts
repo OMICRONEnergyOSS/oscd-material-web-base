@@ -49,6 +49,7 @@ import {styles as chipStyles} from './chip.cssresult.js';
  * @cssprop --trailing-icon-size
  */
 export class ChipElement extends LitElement {
+  /** @nocollapse */
   static override styles: CSSResultOrNative[] = [
     focusRingStyles,
     rippleStyles,

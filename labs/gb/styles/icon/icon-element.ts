@@ -15,6 +15,7 @@ import iconStyles from './md-icon.css' with {type: 'css'}; // github-only
  * A Material Design icon component.
  */
 export class IconElement extends IconBase {
+  /** @nocollapse */
   static override styles: CSSResultOrNative[] = [iconStyles];
 
   override connectedCallback() {

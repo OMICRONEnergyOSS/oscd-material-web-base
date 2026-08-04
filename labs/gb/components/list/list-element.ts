@@ -28,6 +28,7 @@ const baseClass = mixinElementInternals(LitElement);
  * @cssprop --gap
  */
 export class ListElement extends baseClass {
+  /** @nocollapse */
   static override styles: CSSResultOrNative[] = [
     listStyles,
     css`

@@ -13,6 +13,7 @@ import {styles as badgeStyles} from './badge.cssresult.js';
  * A Material Design badge component.
  */
 export class BadgeElement extends LitElement {
+  /** @nocollapse */
   static override styles: CSSResultOrNative[] = [
     badgeStyles,
     css`
