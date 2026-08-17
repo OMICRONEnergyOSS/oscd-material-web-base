@@ -6,26 +6,32 @@
 @mixin root {
   // LINT.IfChange
   --container-color: transparent;
-  --container-height: auto;
   --container-elevation: var(--md-sys-elevation-shadow-0);
+  --container-height: auto;
   --container-shape: calc(var(--container-height) / 2);
-  --outline-width: 0;
-  --outline-color: transparent;
-  --icon-label-space: 8px;
   --icon-color: currentColor;
+  --icon-label-space: 8px;
   --icon-size: 20px;
   --label-text: var(--md-sys-typescale-label-lg);
   --label-text-axes: var(--md-sys-typescale-label-lg-axes);
-  --label-text-tracking: var(--md-sys-typescale-label-lg-tracking);
   --label-text-color: currentColor;
+  --label-text-tracking: var(--md-sys-typescale-label-lg-tracking);
   --leading-space: 0;
+  --md-icon-fill: 1;
+  --outline-color: transparent;
+  --outline-width: 0;
   --state-layer-color: transparent;
   --trailing-space: 0;
   // LINT.ThenChange(button-element.ts) keep in sync with `@cssprop` jsdoc tags
 }
 
+@mixin unselected {
+  --md-icon-fill: 0;
+}
+
 @mixin selected {
   --container-shape: var(--md-sys-shape-corner-md);
+  --md-icon-fill: 1;
 }
 
 @mixin filled {

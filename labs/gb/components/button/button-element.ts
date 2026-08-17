@@ -46,19 +46,20 @@ const baseClass = mixinDelegatesAria(
  * @fires {Event} change - Fired when a toggle button is selected or unselected. --bubbles
  * @csspart btn - The button's root element.
  * @cssprop --container-color
- * @cssprop --container-height
  * @cssprop --container-elevation
+ * @cssprop --container-height
  * @cssprop --container-shape
- * @cssprop --outline-width
- * @cssprop --outline-color
- * @cssprop --icon-label-space
  * @cssprop --icon-color
+ * @cssprop --icon-label-space
  * @cssprop --icon-size
  * @cssprop --label-text
  * @cssprop --label-text-axes
- * @cssprop --label-text-tracking
  * @cssprop --label-text-color
+ * @cssprop --label-text-tracking
  * @cssprop --leading-space
+ * @cssprop --md-icon-fill
+ * @cssprop --outline-color
+ * @cssprop --outline-width
  * @cssprop --state-layer-color
  * @cssprop --trailing-space
  */

@@ -13,6 +13,9 @@
     & {
       @include icon-button-tokens.root;
     }
+    &:where(.icon-btn-unselected, [aria-pressed='false']) {
+      @include icon-button-tokens.unselected;
+    }
     &:is(.icon-btn-selected, [aria-pressed='true']) {
       @include icon-button-tokens.selected;
     }

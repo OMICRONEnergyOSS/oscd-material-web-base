@@ -40,9 +40,10 @@ const baseClass = mixinDelegatesAria(
  * @cssprop --container-shape
  * @cssprop --icon-color
  * @cssprop --icon-size
+ * @cssprop --leading-space
+ * @cssprop --md-icon-fill
  * @cssprop --outline-color
  * @cssprop --outline-width
- * @cssprop --leading-space
  * @cssprop --trailing-space
  */
 export class IconButtonElement extends baseClass {

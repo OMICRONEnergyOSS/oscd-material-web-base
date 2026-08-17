@@ -11,6 +11,9 @@
 @layer md.comp.button {
   .btn {
     @include button-tokens.root;
+    &:where(.btn-unselected, [aria-pressed='false']) {
+      @include button-tokens.unselected;
+    }
     &:is(.btn-selected, [aria-pressed='true']) {
       @include button-tokens.selected;
     }
