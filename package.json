@@ -1,6 +1,6 @@
 {
   "name": "@omicronenergy/oscd-material-web-base",
-  "version": "2.4.1",
+  "version": "2.4.2",
   "publishConfig": {
     "access": "public"
   },
