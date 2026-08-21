@@ -39365,7 +39365,7 @@
             {
               "kind": "method",
               "name": "renderLeadingIcon",
-              "privacy": "private",
+              "privacy": "protected",
               "return": {
                 "type": {
                   "text": "TemplateResult<1>",
@@ -39384,7 +39384,7 @@
             {
               "kind": "method",
               "name": "renderTrailingIcon",
-              "privacy": "private",
+              "privacy": "protected",
               "return": {
                 "type": {
                   "text": "TemplateResult<1>",
@@ -39422,7 +39422,7 @@
             {
               "kind": "method",
               "name": "renderPrefix",
-              "privacy": "private",
+              "privacy": "protected",
               "return": {
                 "type": {
                   "text": "unique symbol | TemplateResult<1>",
@@ -39441,7 +39441,7 @@
             {
               "kind": "method",
               "name": "renderSuffix",
-              "privacy": "private",
+              "privacy": "protected",
               "return": {
                 "type": {
                   "text": "unique symbol | TemplateResult<1>",
@@ -39460,7 +39460,7 @@
             {
               "kind": "method",
               "name": "renderAffix",
-              "privacy": "private",
+              "privacy": "protected",
               "parameters": [
                 {
                   "name": "text",

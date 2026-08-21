@@ -590,7 +590,7 @@ export abstract class TextField extends textFieldBaseClass {
     </${this.fieldTag}>`;
   }
 
-  private renderLeadingIcon() {
+  protected renderLeadingIcon() {
     return html`
       <span class="icon leading" slot="start">
         <slot name="leading-icon" @slotchange=${this.handleIconChange}></slot>
@@ -598,7 +598,7 @@ export abstract class TextField extends textFieldBaseClass {
     `;
   }
 
-  private renderTrailingIcon() {
+  protected renderTrailingIcon() {
     return html`
       <span class="icon trailing" slot="end">
         <slot name="trailing-icon" @slotchange=${this.handleIconChange}></slot>
@@ -687,15 +687,15 @@ export abstract class TextField extends textFieldBaseClass {
     `;
   }
 
-  private renderPrefix() {
+  protected renderPrefix() {
     return this.renderAffix(this.prefixText, /* isSuffix */ false);
   }
 
-  private renderSuffix() {
+  protected renderSuffix() {
     return this.renderAffix(this.suffixText, /* isSuffix */ true);
   }
 
-  private renderAffix(text: string, isSuffix: boolean) {
+  protected renderAffix(text: string, isSuffix: boolean) {
     if (!text) {
       return nothing;
     }
