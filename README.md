@@ -20,6 +20,12 @@ open-source design system.
 **Note:
 [MWC is in maintenance mode pending new maintainers](https://github.com/material-components/material-web/discussions/5642).**
 
+## About this fork
+
+`@omicronenergy/oscd-material-web-base` is Material Web with scoped custom
+element registries. For the upstream sync and versioning procedure, see
+[Updating from upstream](./UPDATING-UPSTREAM.md).
+
 ## Resources
 
 -   [Introduction](./docs/intro.md)
