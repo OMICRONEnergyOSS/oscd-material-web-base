@@ -50,13 +50,6 @@ export interface DialogAnimation {
  * The default dialog open animation.
  */
 export const DIALOG_DEFAULT_OPEN_ANIMATION: DialogAnimation = {
-  dialog: [
-    [
-      // Dialog slide down
-      [{'transform': 'translateY(-50px)'}, {'transform': 'translateY(0)'}],
-      {duration: 500, easing: EASING.EMPHASIZED},
-    ],
-  ],
   scrim: [
     [
       // Scrim fade in
@@ -65,6 +58,11 @@ export const DIALOG_DEFAULT_OPEN_ANIMATION: DialogAnimation = {
     ],
   ],
   container: [
+    [
+      // Slide the content without changing the fixed scrim's containing block.
+      [{'transform': 'translateY(-50px)'}, {'transform': 'translateY(0)'}],
+      {duration: 500, easing: EASING.EMPHASIZED},
+    ],
     [
       // Container fade in
       [{'opacity': 0}, {'opacity': 1}],
@@ -107,13 +105,6 @@ export const DIALOG_DEFAULT_OPEN_ANIMATION: DialogAnimation = {
  * The default dialog close animation.
  */
 export const DIALOG_DEFAULT_CLOSE_ANIMATION: DialogAnimation = {
-  dialog: [
-    [
-      // Dialog slide up
-      [{'transform': 'translateY(0)'}, {'transform': 'translateY(-50px)'}],
-      {duration: 150, easing: EASING.EMPHASIZED_ACCELERATE},
-    ],
-  ],
   scrim: [
     [
       // Scrim fade out
@@ -122,6 +113,11 @@ export const DIALOG_DEFAULT_CLOSE_ANIMATION: DialogAnimation = {
     ],
   ],
   container: [
+    [
+      // Slide the content without changing the fixed scrim's containing block.
+      [{'transform': 'translateY(0)'}, {'transform': 'translateY(-50px)'}],
+      {duration: 150, easing: EASING.EMPHASIZED_ACCELERATE},
+    ],
     [
       // Container shrink
       [{'height': '100%'}, {'height': '35%'}],

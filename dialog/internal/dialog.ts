@@ -287,7 +287,6 @@ export class Dialog extends dialogBaseClass {
 
     const {ariaLabel} = this as ARIAMixinStrict;
     return html`
-      <div class="scrim"></div>
       <dialog
         class=${classMap(classes)}
         aria-label=${ariaLabel || nothing}
@@ -298,6 +297,7 @@ export class Dialog extends dialogBaseClass {
         @close=${this.handleClose}
         @keydown=${this.handleKeydown}
         .returnValue=${this.returnValue || nothing}>
+        <div class="scrim"></div>
         ${showFocusTrap ? focusTrap : nothing}
         <div class="container" @click=${this.handleContentClick}>
           <div class="headline">

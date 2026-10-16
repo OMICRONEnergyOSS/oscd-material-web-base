@@ -78,7 +78,8 @@
     opacity: 32%;
     pointer-events: none;
     position: fixed;
-    z-index: 1;
+    // Keep the animated scrim in this modal's top layer, behind its content.
+    z-index: -1;
   }
 
   :host([open]) .scrim {
