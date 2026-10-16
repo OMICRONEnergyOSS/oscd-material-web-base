@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.1](https://github.com/OMICRONEnergyOSS/oscd-material-web-base/compare/v2.4.2...v2.5.1) (2026-10-16)
+
+
+### Bug Fixes
+
+* **dialog:** correct scrim layering for stacked modals ([afef59b](https://github.com/OMICRONEnergyOSS/oscd-material-web-base/commit/afef59b2c8f9466b5d8dfecce4fbad26aa18ecf7))
+
 ## [2.4.2](https://github.com/OMICRONEnergyOSS/oscd-material-web-base/compare/v2.4.1...v2.4.2) (2026-08-21)
 
 
